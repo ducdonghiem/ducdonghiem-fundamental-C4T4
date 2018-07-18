@@ -1,7 +1,8 @@
 def get_even_list(l=[]):
     for i in l:
-        if l[i]%2 is not 0:
+        if i%2 is not 0:
             l.remove(i)
+    return l
                  
 even_list = get_even_list([1, 2, 5, -10, 9, 6])
 
